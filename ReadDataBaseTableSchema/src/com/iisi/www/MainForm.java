@@ -72,8 +72,7 @@ public class MainForm extends JFrame implements ActionListener{
 
 	
 	public MainForm(){
-		this.createPanel();
-		
+		this.createPanel();		
 		sourceBtn.addActionListener(this);
 		outputBtn.addActionListener(this);
 		xlsxBtn.addActionListener(this);
